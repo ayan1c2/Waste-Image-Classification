@@ -1,0 +1,12 @@
+{
+  "detected_root": "data/waste_dataset",
+  "classes": [
+    "organic",
+    "recyclable"
+  ],
+  "num_classes": 2,
+  "image_size": [
+    224,
+    224
+  ]
+}

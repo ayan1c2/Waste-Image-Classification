@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.9748580697485807,
+  "precision_weighted": 1.0,
+  "recall_weighted": 0.9748580697485807,
+  "f1_weighted": 0.9872689938398358,
+  "roc_auc": NaN
+}
