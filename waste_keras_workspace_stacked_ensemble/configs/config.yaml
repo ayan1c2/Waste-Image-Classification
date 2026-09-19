@@ -1,0 +1,26 @@
+seed: 42
+data_dir: data/waste_dataset
+output_dir: outputs
+image_size: [224, 224]
+batch_size: 32
+validation_split: 0.15
+test_split: 0.15
+epochs_head: 12
+epochs_finetune: 12
+fine_tune_fraction: 0.20
+learning_rate_head: 0.001
+learning_rate_finetune: 0.00001
+patience: 4
+models:
+  - MobileNetV2
+  - EfficientNetB0
+  - ResNet50
+  - DenseNet121
+  - InceptionV3
+  - Xception
+  - NASNetMobile
+  - VGG16
+ensemble:
+  enabled: true
+  meta_classifier: logistic_regression
+  C: 1.0
